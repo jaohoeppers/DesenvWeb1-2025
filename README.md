@@ -8,6 +8,7 @@ Repositório criado para postar o conteúdo da disciplina Desenvolvimento Web 1.
 ## Índice
 
 - [Aula 1](#aula1)
+    Foram mostrdos diversos conceitos e explicações sobre desenvolvimentos WEB e tutorial sobre o GITHUB.
 - [Aula 2](#aula2)
 
 ## Instalação
