@@ -52,3 +52,63 @@ function enviarResultado(valor) {
         resultadoElem.style.backgroundColor = "gray";
     }
 }
+
+function mediaAluno(){
+    var tabela = document.getElementById("tabelaNotas");
+    var soma = 0;
+    var notas = 0;
+
+    var rows = tabela.getElementsByTagName("tr");
+
+    for (var i = 1; i < rows.length; i++) {
+
+        var celulas = rows[i].getElementsByTagName("td");
+
+        if(celulas.length == 0){
+            continue;
+        }
+
+        for (var j = 1; j < celulas.length; j++) {
+
+            var nota = parseFloat(celulas[j].innerText);
+
+            if (!isNaN(nota)) {
+                soma += nota;
+                notas++;
+            }
+        }
+        var media = parseFloat(notas > 0 ? soma / notas : 0)
+        var novaCelula = rows[i].insertCell(celulas.length)
+        novaCelula.innerText = media;
+    }
+}
+
+function mediaBimestre(){
+    var tabela = document.getElementById("tabelaNotas");
+    var soma = 0;
+    var notas = 0;
+
+    var rows = tabela.getElementsByTagName("tr");
+    var celulas = rows[2].getElementsByTagName("td");
+    var novaLinha = tabela.getElementsByTagName("tbody")[0].insertRow()  
+    var linha = rows[2].getElementsByTagName("td");
+    for (let index = 0; index < linha.length; index++) {
+        novaLinha.insertCell(-1);
+    }
+
+    for (var i = 1; i < celulas.length; i++) {
+
+        for (var j = 2; j < rows.length-1; j++) {
+
+            var linha = rows[j].getElementsByTagName("td");
+            var nota = parseFloat(linha[i].innerText);
+
+            if (!isNaN(nota)) {
+                soma += nota;
+                notas++;
+            }
+        }
+        var media = parseFloat(notas > 0 ? soma / notas : 0)
+        novaLinha.cells[i].innerText = media;
+    }
+}
