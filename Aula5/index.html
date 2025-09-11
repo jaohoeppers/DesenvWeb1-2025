@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>    
+
+        <script src="acao.js"></script>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+
+    </head>
+    <body>
+
+        <div>
+            <table id="tabelaNotas" border="1">
+                <thead>
+                    <th colspan="10">Notas dos Alunos Por Bimestre</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>Aluno</th>
+                        <th colspan="3">1° Bimestre</th>
+                        <th colspan="3">2° Bimestre</th>
+                        <th colspan="3">3° Bimestre</th>
+                    </tr>
+                    <tr>
+                        <td>Ana</td>
+                        <td>8.5</td>
+                        <td>7.0</td>
+                        <td>9.0</td>
+                        <td>8.0</td>
+                        <td>7.5</td>
+                        <td>8.0</td>
+                        <td>7.0</td>
+                        <td>8.5</td>
+                        <td>7.5</td>
+                    </tr>
+                    <tr>
+                        <td>João</td>
+                        <td>7.0</td>
+                        <td>8.5</td>
+                        <td>7.5</td>
+                        <td>9.0</td>
+                        <td>9.0</td>
+                        <td>8.0</td>
+                        <td>7.5</td>
+                        <td>8.0</td>
+                        <td>7.0</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <input value="Calcular a Média dos Alunos" type="button" onclick=mediaAluno()>
+            <br>
+            <input value="Calcular a Média dos Bimestres" type="button" onclick=mediaBimestre()>
+            <br>
+            <input value="RESTAURAR" type="button" onclick="location.reload()">
+        </div>
+        
+    </body>
+</html>

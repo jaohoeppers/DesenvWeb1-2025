@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>    
+
+        <script src="acao.js">
+        </script>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+
+    </head>
+    <body>
+        <fieldset>
+            <label for="valor1">Valor 1</label>
+            <input type="number" id="valor1">
+
+            <label for="valor2">Valor 2</label>
+            <input type="number" id="valor2">
+        </fieldset>
+
+        <fieldset>
+            <input type="button" name="somar" id="soma" value="Somar" onclick="somar()">
+            <input type="button" name="diminuir" id="diminuir" value="Diminuir" onclick="diminuir()">
+            <input type="button" name="multiplicar" id="multiplicar" value="Multiplicar" onclick="multiplicar()">
+            <input type="button" name="dividir" id="dividir" value="Dividir" onclick="dividir()">
+        </fieldset>
+
+        <fieldset>
+            <label for="resultado">Resultado</label>
+            <h2 id="resultado"></h2>
+        </fieldset>
+    
+    </body>
+</html>
