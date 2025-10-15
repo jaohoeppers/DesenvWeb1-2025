@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+        <h1>Calculadora de juros</h1>
+        <form action="src.php" method="post">
+            <label for="valorTotal">Digite o valor total:</label>
+            <input type="text" id="valorTotal" name="valorTotal" required>
+            <br>
+            <label for="valorInicial">Digite o valor inicial:</label>
+            <input type="text" id="valorInicial" name="valorInicial" required>
+            <br>
+            <label for="quantParcelas">Selecione a quantidade de parcelas</label>
+            <select id="quantParcelas" name="quantParcelas" required>
+                <option value="1">24x</option>
+                <option value="2">36x</option>
+                <option value="3">48x</option>
+                <option value="4">60x</option>
+            </select>
+            <br>
+            <button type="submit">Enviar</button>
+        </form>
+    </body>
+</html>
