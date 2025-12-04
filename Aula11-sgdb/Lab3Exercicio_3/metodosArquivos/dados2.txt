@@ -1,0 +1,6 @@
+s:501:"{"nome":"jao","sobrenome":"hoe","email":"tete@tes","senha":"123","cidade":"123","estado":"123"}
+{"nome":"jao","sobrenome":"hoe","email":"tete@tes","senha":"123","cidade":"123","estado":"123"}
+{"nome":"joao","sobrenome":"hor","email":"sas@epppe","senha":"123","cidade":"vidal","estado":"sc"}
+{"nome":"joca","sobrenome":"silva","email":"silva@epppe","senha":"123","cidade":"vidal","estado":"sc"}
+{"nome":"neco","sobrenome":"herbert","email":"eee@eeee","senha":"123","cidade":"vidal","estado":"sc"}
+";

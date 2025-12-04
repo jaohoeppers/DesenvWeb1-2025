@@ -1,0 +1,22 @@
+=== DADOS DA FAMÍLIA ===
+
+Membro 1:
+Nome: Carlos Silva
+Idade: 60 anos
+------------------------
+Membro 2:
+Nome: Ana Silva
+Idade: 57 anos
+------------------------
+Membro 3:
+Nome: Pedro Silva
+Idade: 30 anos
+------------------------
+Membro 4:
+Nome: Julia Silva
+Idade: 27 anos
+------------------------
+Membro 5:
+Nome: Lucas Silva
+Idade: 25 anos
+------------------------

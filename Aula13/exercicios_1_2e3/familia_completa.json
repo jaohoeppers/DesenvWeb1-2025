@@ -1,0 +1,47 @@
+[
+    {
+        "nome": "Carlos",
+        "sobrenome": "Silva",
+        "dateNascimento": "1965-03-20",
+        "cpfcnpj": null,
+        "tipo": null,
+        "telefone": null,
+        "endereco": null
+    },
+    {
+        "nome": "Ana",
+        "sobrenome": "Silva",
+        "dateNascimento": "1968-07-15",
+        "cpfcnpj": null,
+        "tipo": null,
+        "telefone": null,
+        "endereco": null
+    },
+    {
+        "nome": "Pedro",
+        "sobrenome": "Silva",
+        "dateNascimento": "1995-11-10",
+        "cpfcnpj": null,
+        "tipo": null,
+        "telefone": null,
+        "endereco": null
+    },
+    {
+        "nome": "Julia",
+        "sobrenome": "Silva",
+        "dateNascimento": "1998-04-25",
+        "cpfcnpj": null,
+        "tipo": null,
+        "telefone": null,
+        "endereco": null
+    },
+    {
+        "nome": "Lucas",
+        "sobrenome": "Silva",
+        "dateNascimento": "2000-09-30",
+        "cpfcnpj": null,
+        "tipo": null,
+        "telefone": null,
+        "endereco": null
+    }
+]
